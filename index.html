@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Семестровая Работа</title>
     <style>
-        li {
-            margin-left: 100px;
+        .info {
+            font-weight: bold;
+            color: mediumslateblue;
+        }
+        main {
+            text-align: center;
+            li {
+                text-align: left;
+            }
+            section {
+                text-align: left;
+            }
+        }
+
+        footer {
+            text-align: center;
         }
     </style>
 </head>
@@ -25,16 +39,16 @@
 
     <main>
         <article>
-            <p>Информация об авторе.</p>
-            <img src="" alt="Фото автора" width="200" height="250">
-            <p>Махов Саид Исаевич</p>
-            <p>ЭФБО-11-24</p>
+            <p class="info">Информация об авторе.</p>
+            <img src="src/me.jpg" alt="Фото автора" width="200" height="200">
+            <p class="info">Махов Саид Исаевич</p>
+            <p class="info">ЭФБО-11-24</p>
             <p>
                 Обо мне: <!--TODO: Доделать-->
             </p>
 
             <section>
-                <h2>Навыки:</h2>
+                <h3 id='variable'>Навыки:</h3>
                 <ul>
                     <li>Навык 1</li>
                     <li>Навык 2</li>
@@ -45,10 +59,9 @@
         </article>
 
         <article>
-            Мой опыт работы:
+            Мой опыт работы
             <section>
                 Опыт 1:<br>
-
             </section>
             <section>
                 Опыт 2:<br>
@@ -61,7 +74,7 @@
 
     <footer>
         <br>
-        © 2025 Семестровая работа. +7 (900) 900-14-88
+        © 2025 Семестровая работа.<br> +7 (900) 900-14-88
     </footer>
 </body>
 </html>
