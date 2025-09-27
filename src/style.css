@@ -194,3 +194,7 @@ footer {
     }
     border-radius: 15px;
 }
+
+ul {
+    list-style: none;
+}
